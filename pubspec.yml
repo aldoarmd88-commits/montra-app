@@ -1,0 +1,22 @@
+name: montra
+description: "Aplikasi Financial Tracker Premium Montra"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  hive_flutter: ^1.1.0
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  fl_chart: ^0.66.0
+  lucide_icons: ^0.331.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
